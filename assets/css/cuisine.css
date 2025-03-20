@@ -1,0 +1,156 @@
+/* Ajouter une image de fond à toute la page */
+body {
+    background-image: url('/assets/image/knives-1839061_1280.jpg');  /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #f5f2f2;  /* Assurez-vous que le texte soit visible sur le fond */
+    color: 2px 2px rgba(226, 231, 228, 0.7);
+
+
+
+}
+    /* Personnalisation du titre */
+    h1 {
+        font-family: 'Dancing Script', cursive; /* Police italienne */
+        font-size: 4rem;  /* Taille du texte */
+        font-weight: bold; /* Gras pour rendre le texte plus visible */
+        text-align: center;  /* Centrer le texte */
+        line-height: 1.3;  /* Espacement entre les lignes du titre */
+        color: #f5f2f2;  /* Couleur du texte (blanc ou autre couleur claire) */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  /* Ombre autour du texte pour améliorer la visibilité */
+    }
+
+    .title-box {
+        background-color: #0e0e0e;
+        color: #080808;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+    }
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-decoration: white;
+    text-decoration-style: solid;
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/* Style de base pour les cartes */
+.card {
+    border-radius: 15px;
+    transition: all 0.3s ease; /* Animation fluide */
+}
+
+/* Effet de survol sur les cartes */
+.card:hover {
+    transform: scale(1.05); /* Agrandir légèrement la carte */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Ajouter une ombre pour l'effet */
+}
+
+
+
+/* Animation pour la section de présentation (textes et boutons) */
+#recettes-container .col-md-4 {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Effet sur la section de présentation lorsqu'elle est survolée */
+#recettes-container .col-md-4:hover {
+    transform: translateY(-10px); /* Légèrement soulever la carte */
+   
+    opacity: 1;
+}
+
+
+
+/* Personnalisation des boutons pour l'effet de survol */
+.card-body .btn:hover {
+    background-color: #f49b26; /* Changer la couleur du bouton lors du survol */
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Personnalisation de la boîte contenant le titre */
+.title-box {
+    background-color: #0e0e0e; /* Couleur de fond pour la boîte */
+    color: #080808; /* Couleur du texte */
+    border-radius: 15px; /* Coins arrondis pour la boîte */
+    padding: 30px; /* Espacement autour du texte */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre douce autour de la boîte */
+    margin-top: 50px; /* Espacement au-dessus de la boîte */
+}
+
+
+
+
+
+/* Personnalisation du header */
+header {
+    background-color: #f2ae26;  /* Fond sombre pour le header */
+    color: #f49b26;
+}
+.container-fluid {
+    max-width: 1200px;
+}
+
+/* Personnalisation de la section des recettes */
+#recettes-container {
+    background-image: url('image/fond-recettes.jpg');  /* Image de fond pour les recettes */
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;  /* Espacement autour de la section */
+    
+
+}
+.section{
+    background-color:#080808;
+    color: #f49b26;
+
+
+}
+
+/* Personnalisation du footer */
+footer {
+    
+    background-color: #f2ae26;  /* Fond sombre pour le footer */
+    color: #f49b26;
+    padding: 20px 0;
+    text-align: center;  /* Centrer le texte du footer */
+}
+
+footer a {
+    color: #edecea;
+}
+
+footer p {
+    margin: 5px 0;/* Réduire les marges autour des paragraphes */
+    font-size: 1rem;
+    text-align: center; /* Centrer le texte */
+    color: #edecea;
+}
+
+
+/* Personnalisation des cartes */
+.card {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body .btn {
+    border-radius: 20px;
+}
+
