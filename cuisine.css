@@ -1,11 +1,14 @@
 /* Ajouter une image de fond à toute la page */
 body {
-    background-image: url('/assets/image/knives-1839061_1280.jpg');  /* Remplacez par le chemin de votre image */
+    background-image: url('knives-1839061_1280.jpg');  /* Remplacez par le chemin de votre image */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     color: #f5f2f2;  /* Assurez-vous que le texte soit visible sur le fond */
     color: 2px 2px rgba(226, 231, 228, 0.7);
+
+
+
 }
     /* Personnalisation du titre */
     h1 {
@@ -33,6 +36,7 @@ h1 {
     text-decoration-style: solid;
     font-size: 4rem;
     text-align: center;
+
 }
 
 p {
@@ -52,6 +56,8 @@ p {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Ajouter une ombre pour l'effet */
 }
 
+
+
 /* Animation pour la section de présentation (textes et boutons) */
 #recettes-container .col-md-4 {
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -60,14 +66,19 @@ p {
 /* Effet sur la section de présentation lorsqu'elle est survolée */
 #recettes-container .col-md-4:hover {
     transform: translateY(-10px); /* Légèrement soulever la carte */
+   
     opacity: 1;
 }
+
+
 
 /* Personnalisation des boutons pour l'effet de survol */
 .card-body .btn:hover {
     background-color: #f49b26; /* Changer la couleur du bouton lors du survol */
     transition: background-color 0.3s ease;
 }
+
+
 
 /* Personnalisation de la boîte contenant le titre */
 .title-box {
@@ -78,6 +89,10 @@ p {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre douce autour de la boîte */
     margin-top: 50px; /* Espacement au-dessus de la boîte */
 }
+
+
+
+
 
 /* Personnalisation du header */
 header {
@@ -94,15 +109,19 @@ header {
     background-size: cover;
     background-position: center center;
     padding: 50px 0;  /* Espacement autour de la section */
-}
+    
 
+}
 .section{
     background-color:#080808;
     color: #f49b26;
+
+
 }
 
 /* Personnalisation du footer */
 footer {
+    
     background-color: #f2ae26;  /* Fond sombre pour le footer */
     color: #f49b26;
     padding: 20px 0;
@@ -119,6 +138,7 @@ footer p {
     text-align: center; /* Centrer le texte */
     color: #edecea;
 }
+
 
 /* Personnalisation des cartes */
 .card {
